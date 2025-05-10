@@ -17,7 +17,7 @@
   "license": "MIT",
   "release": {
     "branches": [
-      "master",
+      "main",
       "next"
     ],
     "plugins": [
