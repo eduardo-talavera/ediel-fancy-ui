@@ -49,7 +49,6 @@ const button = cva(
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>, 
 VariantProps<typeof button> {}
 
-/** Con forwardRef damos soporte, para que nuestro componente pueda ser referenciado con useRef y ref */
 
 export const Button: FC<ButtonProps> = forwardRef<HTMLButtonElement, ButtonProps>
 (({ children, className, variant, size, rounded, outline, ...props }, ref) => {
